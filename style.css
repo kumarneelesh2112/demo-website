@@ -1,0 +1,174 @@
+*{
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #dfe6e9;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+.menu{
+    
+    background-color: #34495e;
+    color: #ecf0f1;
+    margin-bottom: 15px;
+
+}
+.menu h1{
+    padding-left: 40px;;
+}
+.nav{
+    float: right;
+}
+.nav li{
+    display: inline-block;
+    margin-top: 12px;
+     
+    
+    
+    
+}
+.nav li a{
+   
+    color: #ecf0f1;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+    padding: 8px;
+    margin-right: 10px;
+    
+}
+.nav li a:hover{
+    color:#34495e;
+    background-color: #dfe6e9;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    text-decoration-style: none;
+    
+
+
+}
+.banner{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./GYM.jpg);
+    min-height: 8cm;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.quote p{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    color:#dfe6e9 ;
+    margin-left:20px;
+} 
+.service h2{
+    max-width:200px;
+    margin:15px auto;
+    color: #2d3436;
+    border-bottom: solid;
+    
+    
+}
+
+.sevices.icon h3{
+    margin-left: 25px;
+    text-align: center;
+}
+.icon h3{
+    text-align: center;
+}
+.icon i.fa{
+    color:#34495e;
+    font-size: 400%;
+    padding-left: 40%;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+   
+}
+.icon i.fa:hover{
+    color:black;
+    
+   
+}
+.costomers
+{
+    margin-top: 20px;
+}
+/* .client{
+
+border:2px solid black;
+
+} */
+.costomers
+{
+    background-color:#2d3436 ;
+}
+.client{
+    background-color:#2d3436 ;
+
+}
+
+
+.client h3{
+    text-align: center;
+    color: #dfe6e9;
+}
+.client p{
+    text-align: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left:40%;
+    
+}
+
+.costomers h2{
+    
+        max-width:500px;
+        margin:15px auto;
+        color: #dfe6e9;
+        
+        
+}
+.client p{
+    color: #dcdde1;
+    
+}
+.client h3:hover{
+    
+    border-bottom:2px solid #ecf0f1;
+}
+
+.footer i.fa{
+    color:#34495e;
+    font-size: 200%;
+   
+    padding: 50px;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+   
+}
+.footer i.fa:hover{
+    color:black;
+    font-size:250% ;
+    
+   
+}
+.footer {
+    padding: 20px;
+    height: 50px;
+}
+
+
+
+
